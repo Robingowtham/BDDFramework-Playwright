@@ -4,7 +4,7 @@ import { Config } from './utils/config';
 const testDir = defineBddConfig({
     features: 'features/*.feature',
     // Step definitions and fixtures are picked up automatically
-    steps: ['src/steps/*.ts', 'src/fixtures/*.ts'],
+    steps: ['src/steps/*.ts', 'src/fixtures/bdd-fixtures.ts'],
 });
 export default defineConfig({
     testDir,
