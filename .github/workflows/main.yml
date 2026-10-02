@@ -1,5 +1,5 @@
 
-name: BDDPlaywright Demo
+name: BDDPlaywright Demo CI CD
 
 on:
   workflow_dispatch:
